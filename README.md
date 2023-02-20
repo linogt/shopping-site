@@ -1,6 +1,7 @@
 # shopping-site
 
-Projeto de um site de adicionar items em um catálogo. Tecnologias utilizadas: HTML, CSS, JavaScript, Bootstrap, SQLite, Node.js, Express, Express-Handlebars e Sequelize.
+Site para adicionar items em um catálogo. 
+Tecnologias utilizadas: HTML, CSS, JavaScript, Bootstrap, SQLite, Node.js, Express, Express-Handlebars e Sequelize.
 
 Link para visualização do HTML utilizado: https://linogt.github.io/shopping-site/
 
