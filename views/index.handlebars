@@ -1,0 +1,16 @@
+<div class="container">
+    <ul class="justify-content-center row d-flex" id="gap">
+        {{#each items}}
+        <li class="col-4 card" style="width: 18rem;">
+            <div class="card-body">
+
+                <img class="card-img-top" src={{dataValues.imagem}} alt="Card image cap" height="200" width="40">
+                <h5 class="nome">{{dataValues.nome}}</h5>
+                <p class="descricao">{{dataValues.descricao}}</p>
+                <p class="preco">R${{dataValues.preco}}</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+        </li>
+        {{/each}}
+    </ul>
+</div>

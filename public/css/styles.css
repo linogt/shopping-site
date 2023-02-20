@@ -1,0 +1,49 @@
+#gap{
+    gap: 50px;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.navbar-brand{
+    padding-left: 10px;
+}
+
+.navbar-nav.ml-auto{
+    padding-right: 10px;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 200px;
+}
+
+.col-4.card{
+    width: 18rem;
+}
+
+@media (max-width:568px){
+
+
+    #gap{
+        gap: 5px;
+    }
+
+    .col-4.card{
+        width: 10rem;
+    }
+    .card-img-top{
+        height: 80px;
+        width: 80px;
+    }
+    .nome{
+        font-size: large;
+    }
+    .descricao{
+        font-size: 12px;
+    }
+    .preco{
+        font-size: large;
+    }
+}
